@@ -36,5 +36,5 @@ if type(amount) != float:
     print("Invalid amount")
 else:
     discount = Discount_Cal(amount)
-    print("Discount: ", discount, "LKR")
-    print("Net Pay: ", amount - discount, "LKR")
+print("Discount:", discount, "LKR")
+print("Net Pay: ", amount - discount, "LKR")
